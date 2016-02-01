@@ -3,3 +3,5 @@ php:
   - 5.5
 install: composer install --no-dev
 script: phpunit --bootstrap autoload.php tests
+notifications:
+  email: false
